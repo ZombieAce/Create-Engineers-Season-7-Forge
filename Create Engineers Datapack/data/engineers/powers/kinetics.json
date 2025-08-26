@@ -1,0 +1,22 @@
+{
+    "type": "origins:starting_equipment",
+    "stacks": [
+        {
+            "item": "create:wrench",
+            "amount": 1
+        },
+        {
+            "item": "create:clipboard",
+            "amount": 1
+        },
+        {
+            "item": "create:brown_toolbox",
+            "amount": 1
+        }
+    ],
+    "recurrent": false,
+    
+    "name": "Kinetics",
+    "description": "You start out with a wrench, clipboard and a toolbox",
+    "hidden": false
+}

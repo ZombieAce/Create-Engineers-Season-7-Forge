@@ -1,0 +1,13 @@
+{
+  "type": "origins:modify_damage_taken",
+  "condition": {
+    "type": "origins:on_fire"
+  },
+  "modifier": {
+    "name": "Weak to fire",
+    "value": 2,
+    "operation": "addition"
+  },
+  "name": "Low Melting Point",
+  "description": "Your body melts easily in fire. Take more damage from fire."
+}

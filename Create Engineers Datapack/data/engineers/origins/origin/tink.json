@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"engineers:scalereset",
+		"engineers:tinkererstouch",
+		"engineers:kinetics",
+		"engineers:tinkbody",
+		"createorigins:goggles"
+	],
+	"icon": {
+		"item": "create:goggles"
+	},
+	"order": 2,
+	"impact": 2,
+	"name": "Tink",
+	"description": "Tinks are humanoid creatures born with a natural talent for tinkering and engineering"
+}

@@ -1,0 +1,18 @@
+{
+	"type": "create:mixing",
+	"heatRequirement": "heated",
+	"ingredients": [
+	  {
+		"item": "minecraft:cobblestone"
+	  },
+	  {
+		"item": "minecraft:nether_wart"
+	  }
+	],
+	"results": [
+	  {
+		"item": "minecraft:netherrack",
+		"count": 1
+	  }
+	]
+}

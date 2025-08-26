@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "RXR",
+        "XEX",
+        "RXR"
+    ],
+    "key": {
+        "E": {
+            "item": "minecraft:ender_eye"
+        },
+        "X": {
+            "item": "create:experience_block"
+        },
+        "R": {
+            "item": "create_new_age:radioactive_thorium"
+        }
+    },
+    "result": {
+        "item": "origins:orb_of_origin",
+        "count": 1
+    }
+}

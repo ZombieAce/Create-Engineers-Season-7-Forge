@@ -1,0 +1,41 @@
+{
+    "type": "origins:multiple",
+
+    "persist": {
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
+            "type": "origins:execute_command",
+            "command": "scale persist set true"
+        }
+    },
+    
+    "short": {
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:height 0.8"
+        }
+    },
+
+    "slim": {
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:width 0.8"
+        }
+    },
+
+    "lesshealth": {
+        "type": "origins:attribute",
+        "modifier": {
+            "name": "Less Health",
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": -2
+        }
+    },
+
+    "name": "Vulpen Body",
+    "description": "smoll :)",
+    "hidden": true
+}

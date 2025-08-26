@@ -1,0 +1,29 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type":"origins:execute_command",
+        "command": "playsound cheeseman:cheese player @a[distance=..16]"
+    },
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "cheese:cheeses"
+            }
+        }
+    },
+    "cooldown": 35,
+    "hud_render": {
+        "should_render": false
+    },
+    "key": {
+        "key": "key.attack",
+        "continuous": false
+    },
+
+    "name": "Slap!",
+    "description": "Cheese.",
+    "hidden": false
+}

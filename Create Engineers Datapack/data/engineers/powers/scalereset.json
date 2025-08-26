@@ -1,0 +1,24 @@
+{
+    "type": "origins:multiple",
+
+    "persist": {
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
+            "type": "origins:execute_command",
+            "command": "scale persist set true"
+        }
+    },
+
+    "reset": {
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
+            "type": "origins:execute_command",
+            "command": "scale reset"
+        }
+    },
+
+    "name": "Scale Reset",
+    "description": "For changing between Origins of different scales",
+    "hidden": true,
+    "loading_priority": 0
+}

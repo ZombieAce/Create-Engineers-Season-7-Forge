@@ -1,0 +1,25 @@
+{
+	"type": "create:mixing",
+	"ingredients": [
+	  {
+		"item": "minecraft:gravel"
+	  },
+	  {
+		"item": "minecraft:iron_nugget"
+	  },
+	  {
+		"item": "minecraft:iron_nugget"
+	  },
+	  {
+		"fluid": "minecraft:lava",
+		"nbt": {},
+		"amount": 100
+	  }
+	],
+	"results": [
+	  {
+		"item": "create:crimsite",
+		"count": 1
+	  }
+	]
+}

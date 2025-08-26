@@ -1,0 +1,12 @@
+{
+    "values": [
+        "create:encased_fan",
+        "create:millstone",
+        "create:crushing_wheel",
+        "create:mechanical_drill",
+        "create:mechanical_saw",
+        "create:mechanical_press",
+        "create:mechanical_mixer",
+        "create:spout"
+    ]
+}

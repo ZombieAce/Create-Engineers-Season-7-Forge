@@ -1,0 +1,34 @@
+{
+    "type": "origins:action_on_item_use",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effects": [
+            {
+                "effect": "minecraft:haste",
+                "duration": 100,
+                "amplifier": 0,
+                "is_ambient": false,
+                "show_particles": false,
+                "show_icon": true
+            },
+            {
+                "effect": "minecraft:speed",
+                "duration": 100,
+                "amplifier": 0,
+                "is_ambient": false,
+                "show_particles": false,
+                "show_icon": true
+            }
+        ]
+    },
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "tag": "engineers:berries"
+        }
+    },
+
+    "name": "Berry Boost",
+    "description": "Gain a small boost from eating berries",
+    "hidden": false
+}

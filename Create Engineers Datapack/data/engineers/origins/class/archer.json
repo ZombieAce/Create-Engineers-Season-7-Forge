@@ -1,0 +1,15 @@
+{
+	"powers": [
+	    "origins-classes:no_projectile_divergence",
+    	"origins-classes:less_bow_slowdown",
+		"engineers:leveling",
+		"engineers:xpgain_archer"
+	],
+	"icon": {
+		"item": "minecraft:bow"
+	},
+	"order": 1,
+	"impact": 0,
+	"name": "Archer",
+	"description": "Specialized in ranged combat"
+}

@@ -1,0 +1,30 @@
+{
+    "values": [
+        "#minecraft:swords",
+        "betternether:cincinnasite_sword",
+        "betternether:nether_ruby_sword",
+        "betternether:cincinnasite_sword_diamond",
+        "betternether:flaming_ruby_sword",
+        "betterend:aeternium_sword",
+        "betterend:thallasium_sword",
+        "betterend:terminite_sword",
+        "ae2:certus_quartz_sword",
+        "ae2:nether_quartz_sword",
+        "ae2:fluix_sword",
+
+        "#minecraft:axes",
+        "betternether:cincinnasite_axe",
+        "betternether:nether_ruby_axe",
+        "betternether:cincinnasite_axe_diamond",
+        "betternether:flaming_ruby_axe",
+        "betterend:aeternium_axe",
+        "betterend:thallasium_axe",
+        "betterend:terminite_axe",
+        "ae2:certus_quartz_axe",
+        "ae2:nether_quartz_axe",
+        "ae2:fluix_axe",
+
+        "minecraft:bow",
+        "minecraft:crossbow"
+    ]
+}

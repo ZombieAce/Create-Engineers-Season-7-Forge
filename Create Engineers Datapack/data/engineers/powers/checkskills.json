@@ -1,0 +1,77 @@
+{
+    "type": "origins:multiple",
+    
+    "warrior": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:if_else_list",
+			"actions": [
+				{
+					"condition": {
+						"type": "origins:inventory",
+						"inventory_types": [
+							"power"
+						],
+						"power": "engineers:leveling_skillmenu",
+						"slot": "container.1",
+						"item_condition": {
+							"type": "origins:ingredient",
+							"ingredient": {
+								"item": "minecraft:air"
+							}
+						}
+					},
+					"action": {
+						"type": "origins:execute_command",
+						"command": "function engineers:skills/sharperweapons"
+					}
+				},
+				{
+					"condition": {
+						"type": "origins:inventory",
+						"inventory_types": [
+							"power"
+						],
+						"power": "engineers:leveling_skillmenu",
+						"slot": "container.2",
+						"item_condition": {
+							"type": "origins:ingredient",
+							"ingredient": {
+								"item": "minecraft:air"
+							}
+						}
+					},
+					"action": {
+						"type": "origins:execute_command",
+						"command": "function engineers:skills/vitality"
+					}
+				},
+				{
+					"condition": {
+						"type": "origins:inventory",
+						"inventory_types": [
+							"power"
+						],
+						"power": "engineers:leveling_skillmenu",
+						"slot": "container.3",
+						"item_condition": {
+							"type": "origins:ingredient",
+							"ingredient": {
+								"item": "minecraft:air"
+							}
+						}
+					},
+					"action": {
+						"type": "origins:execute_command",
+						"command": "function engineers:skills/aerialcombat"
+					}
+				}
+			]
+		},
+		"interval": 5
+	},
+	
+	"name": "Checkskills",
+	"description": "Check if a skill has been selected in the skill menu",
+	"hidden": true
+}

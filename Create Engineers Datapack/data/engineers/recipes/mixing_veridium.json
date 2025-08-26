@@ -1,0 +1,25 @@
+{
+	"type": "create:mixing",
+	"ingredients": [
+	  {
+		"item": "minecraft:clay_ball"
+	  },
+	  {
+		"item": "minecraft:clay_ball"
+	  },
+	  {
+		"item": "minecraft:clay_ball"
+	  },
+	  {
+		"fluid": "minecraft:lava",
+		"nbt": {},
+		"amount": 100
+	  }
+	],
+	"results": [
+	  {
+		"item": "create:veridium",
+		"count": 1
+	  }
+	]
+}

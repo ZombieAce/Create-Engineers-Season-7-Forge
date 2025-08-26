@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"engineers:horsepower",
+		"engineers:cavalry",
+		"engineers:leveling",
+		"engineers:xpgain_rider"
+	],
+	"icon": {
+		"item": "minecraft:saddle"
+	},
+	"order": 2,
+	"impact": 0,
+	"name": "Rider",
+	"description": "Specialized in mounted combat"
+}

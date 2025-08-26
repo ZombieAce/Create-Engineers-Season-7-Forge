@@ -1,0 +1,43 @@
+{
+    "type": "origins:action_on_entity_use",
+
+    "bientity_action": {
+        "type": "origins:target_action",
+        "action": {
+            "type": "origins:execute_command",
+            "command": "function engineers:horsepower"
+        }
+    },
+    "bientity_condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:owner"
+            },
+            {
+                "type": "origins:target_condition",
+                "condition": {
+                    "type": "origins:and",
+                    "conditions": [
+                        {
+                            "type": "origins:in_tag",
+                            "tag": "engineers:rideable"
+                        },
+                        {
+                            "type": "origins:nbt",
+                            "nbt": {
+                                "Tags": ["horsepower"]
+                            },
+                            "inverted": true
+                        }
+                    ]
+                }
+            }
+        ]
+        
+    },
+
+    "name": "Horse Power",
+    "description": "All your tamed horses will have maximum §chealth§r, §bspeed§r and §ajump strength§r",
+    "hidden": false
+}

@@ -1,0 +1,12 @@
+{
+	"powers": [
+		"engineers:scalereset"
+	],
+	"icon": {
+		"item": "minecraft:player_head"
+	},
+	"order": 0,
+	"impact": 0,
+	"name": "Human",
+	"description": "What more would you need to know? It's just a human."
+}

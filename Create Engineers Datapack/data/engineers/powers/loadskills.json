@@ -1,0 +1,65 @@
+{
+    "type": "origins:multiple",
+    
+    "warrior": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:replace_inventory",
+					"inventory_type": "power",
+					"power": "engineers:leveling_skillmenu",
+					"slot": "container.1",
+					"stack": {
+						"item": "minecraft:iron_sword",
+						"amount": 1,
+						"tag": {
+							"HideFlags": 2, "display": {
+								"Lore": ["{\"text\":\"+0.5 DMG\",\"italic\":false,\"color\":\"dark_green\"}"],
+								"Name": "[{\"text\": \"Sharper Weapons\",\"italic\":false,\"color\":\"yellow\"}]"
+							}
+						}
+					}
+				},
+				{
+					"type": "origins:replace_inventory",
+					"inventory_type": "power",
+					"power": "engineers:leveling_skillmenu",
+					"slot": "container.2",
+					"stack": {
+						"item": "minecraft:redstone",
+						"amount": 1,
+						"tag": {
+							"HideFlags": 2, "display": {
+								"Lore": ["{\"text\":\"+1 HP\",\"italic\":false,\"color\":\"dark_green\"}"],
+								"Name": "[{\"text\": \"Vitality\",\"italic\":false,\"color\":\"yellow\"}]"
+							}
+						}
+					}
+				},
+				{
+					"type": "origins:replace_inventory",
+					"inventory_type": "power",
+					"power": "engineers:leveling_skillmenu",
+					"slot": "container.3",
+					"stack": {
+						"item": "minecraft:feather",
+						"amount": 1,
+						"tag": {
+							"HideFlags": 2, "display": {
+								"Lore": ["{\"text\":\"+0.5 DMG Mid Air\",\"italic\":false,\"color\":\"dark_green\"}"],
+								"Name": "[{\"text\": \"Aerial Combat\",\"italic\":false,\"color\":\"yellow\"}]"
+							}
+						}
+					}
+				}
+			]
+		},
+		"interval": 5
+	},
+	
+	"name": "Loadskills",
+	"description": "Load the skills into the Skill Menu",
+	"hidden": true
+}

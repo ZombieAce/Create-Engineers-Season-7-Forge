@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"engineers:meleeboost",
+    	"origins-classes:less_shield_slowdown",
+		"engineers:leveling",
+		"engineers:xpgain_warrior"
+	],
+	"icon": {
+		"item": "minecraft:iron_sword"
+	},
+	"order": 0,
+	"impact": 0,
+	"name": "Warrior",
+	"description": "Specialized in melee combat"
+}

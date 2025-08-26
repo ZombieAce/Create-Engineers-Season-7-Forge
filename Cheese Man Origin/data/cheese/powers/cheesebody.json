@@ -1,0 +1,9 @@
+{
+	"type": "origins:model_color",
+	"red": 0.9,
+	"green": 0.8,
+	"blue": 0.1,
+	"name": "Cheese Body",
+	"description": "Being made out of cheese gives you an yellow-ish tint.",
+	"hidden": false
+}

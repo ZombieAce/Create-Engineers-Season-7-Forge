@@ -1,0 +1,19 @@
+{
+    "type": "origins:attribute",
+    "modifiers": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": -4
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "addition",
+            "value": -1
+        }
+    ],
+
+    "name": "Tink Body",
+    "description": "Tinks evolved with more focus on §3intelligence§r, therefore they are lacking in §6strength§r and §cvitality§r",
+    "hidden": false
+}

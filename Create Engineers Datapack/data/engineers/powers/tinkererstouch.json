@@ -1,0 +1,120 @@
+{
+    "type": "origins:multiple",
+
+    "enchant": {
+        "type": "origins:action_on_item_use",
+        "trigger": "instant",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "enchant @s minecraft:efficiency 2"
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "engineers:tinkererstouch_charges",
+                    "change": -1,
+                    "operation": "add"
+                }
+            ]
+
+        },
+        "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:enchantment",
+                    "enchantment": "minecraft:efficiency",
+                    "compare_to": 2,
+                    "comparison": ">=",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "engineers:efficiencymachines"
+                    }
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "engineers:tinkererstouch_cooldown",
+                    "compare_to": 0,
+                    "comparison": "=="
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "engineers:tinkererstouch_charges",
+                    "compare_to": 0,
+                    "comparison": ">"
+                },
+                {
+                    "type": "origins:sneaking"
+                }
+            ]
+        }
+    },
+
+    "cooldown": {
+        "type": "origins:cooldown",
+        "cooldown": 1200,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+            "bar_index": 19,
+            "icon_index": 0,
+            "order": 2,
+            "condition": {
+                "type": "origins:resource",
+                "resource": "engineers:tinkererstouch_cooldown",
+                "compare_to": 0,
+                "comparison": ">"
+            }
+        }
+    },
+
+    "charges": {
+        "type": "origins:resource",
+        "max": 3,
+        "min": 0,
+        "start_value": 3,
+        "min_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:trigger_cooldown",
+                    "power": "engineers:tinkererstouch_cooldown"
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "engineers:tinkererstouch_charges",
+                    "change": 3,
+                    "operation": "set"
+                }
+            ]
+        },
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+            "bar_index": 19,
+            "icon_index": 0,
+            "order": 1,
+            "condition": {
+                "type": "origins:resource",
+                "resource": "engineers:tinkererstouch_cooldown",
+                "compare_to": 0,
+                "comparison": ">",
+                "inverted": true
+            }
+        }
+    },
+
+    "name": "Tinkerer's Touch",
+    "description": "Machines you touch are enchanted to be more efficient §2(SHIFT + RMB)§r",
+    "hidden": false
+}

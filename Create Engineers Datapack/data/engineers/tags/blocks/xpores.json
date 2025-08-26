@@ -1,0 +1,26 @@
+{
+    "values": [
+        "#minecraft:coal_ores",
+        "#minecraft:copper_ores",
+        "#minecraft:iron_ores",
+        "#minecraft:gold_ores",
+        "#minecraft:redstone_ores",
+        "#minecraft:diamond_ores",
+        "#minecraft:emerald_ores",
+        "#minecraft:lapis_ores",
+        "minecraft:nether_gold_ore",
+        "minecraft:nether_quartz_ore",
+        "betternether:cincinnasite_ore",
+        "betternether:nether_ruby_ore",
+        "betternether:nether_lapis_ore",
+        "betternether:nether_redstone_ore",
+        "betterend:ender_ore",
+        "betterend:amber_ore",
+        "betterend:thallasium_ore",
+        "create:zinc_ore",
+        "create:deepslate_zinc_ore",
+        "create_dd:tin_ore",
+        "create_dd:deepslate_tin_ore",
+        "create_new_age:thorium_ore"
+    ]
+}

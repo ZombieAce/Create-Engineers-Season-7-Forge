@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"engineers:vulpenbody",
+		"engineers:berryboost",
+		"engineers:foxjump",
+		"origins:no_shield"
+	],
+	"icon": {
+		"item": "minecraft:sweet_berries"
+	},
+	"order": 1,
+	"impact": 1,
+	"name": "Vulpen",
+	"description": "Foxlike creature evolved to adapt to the modern world"
+}

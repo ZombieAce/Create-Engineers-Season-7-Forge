@@ -1,0 +1,268 @@
+{
+	"type": "origins:multiple",
+
+	"bar": {
+		"type": "origins:resource",
+		"min": 0,
+		"max": 80,
+		"hud_render":{
+			"should_render": true,
+			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+			"bar_index": 16,
+			"icon_index": 0,
+			"order": 1,
+			"condition": {
+				"type": "origins:and",
+				"conditions": [
+					{
+						"type": "origins:resource",
+						"resource": "engineers:foxjump_cooldown",
+						"comparison": "==",
+						"compare_to": 0
+					},
+					{
+						"type": "origins:resource",
+						"resource": "engineers:foxjump_bar",
+						"comparison": ">=",
+						"compare_to": 1
+					}
+				]
+			}
+		}
+	},
+
+	"cooldown": {
+		"type": "origins:cooldown",
+		"cooldown": 60,
+		"hud_render": {
+			"should_render": true,
+			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+			"bar_index": 17,
+			"icon_index": 0,
+			"order": 1,
+			"condition": {
+				"type": "origins:resource",
+				"resource": "engineers:foxjump_cooldown",
+				"comparison": ">=",
+				"compare_to": 1
+			}
+		}
+	},
+
+	"resetsneak": {
+		"type": "origins:action_over_time",
+		"interval": 1,
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "engineers:foxjump_bar",
+			"change": 0,
+            "operation": "set"
+		},
+        "condition": {
+            "type": "origins:or",
+			"conditions": [
+				{
+					"type": "origins:sneaking",
+					"inverted": true
+				},
+				{
+					"type": "origins:on_block",
+					"inverted": true
+				}
+			]
+        }
+	},
+
+	"resetjump": {
+		"type": "origins:active_self",
+		"key": {
+			"continuous": true,
+			"key": "key.jump"
+		},
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "engineers:foxjump_bar",
+			"change": 0,
+			"operation": "set"
+		}
+	},
+
+	"triggercooldown": {
+		"type": "origins:active_self",
+		"key": {
+			"key": "key.jump",
+			"continuous": true
+		},
+		"entity_action": {
+			"type": "origins:trigger_cooldown",
+			"power": "engineers:foxjump_cooldown"
+		},
+		"condition":{
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:sneaking"
+				},
+				{
+					"type": "origins:on_block"
+				},
+				{
+					"type": "origins:resource",
+					"resource": "engineers:foxjump_cooldown",
+					"compare_to": 0,
+					"comparison": "=="
+				}
+			]
+		}
+	},
+
+	"charge": {
+		"type": "origins:action_over_time",
+        "interval": 1,
+		"entity_action":{
+			"type":"origins:change_resource",
+			"resource": "engineers:foxjump_bar",
+			"change": 1
+		},
+		"condition":{
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:sneaking"
+				},
+				{
+					"type": "origins:on_block"
+				},
+				{
+					"type": "origins:resource",
+					"resource": "engineers:foxjump_cooldown",
+					"compare_to": 0,
+					"comparison": "=="
+				}
+			]
+		}
+	},
+
+	"boost": {
+		"type": "origins:action_over_time",
+        "interval": 1,
+		"entity_action":{
+			"type":"origins:if_else_list",
+			"actions": [
+				{
+					"action": {
+						"type": "origins:apply_effect",
+						"effect": {
+							"effect": "minecraft:jump_boost",
+							"amplifier": 0,
+							"duration": 10,
+							"is_ambient": false,
+							"show_icon": false,
+							"show_particles": false
+						}
+					},
+					"condition": {
+						"type": "origins:and",
+						"conditions": [
+							{
+								"type": "origins:resource",
+								"resource": "engineers:foxjump_bar",
+								"compare_to": 39,
+								"comparison": "<="
+							},
+							{
+								"type": "origins:resource",
+								"resource": "engineers:foxjump_bar",
+								"compare_to": 20,
+								"comparison": ">="
+							}
+						]
+					}
+				},
+				{
+					"action": {
+						"type": "origins:apply_effect",
+						"effect": {
+							"effect": "minecraft:jump_boost",
+							"amplifier": 1,
+							"duration": 10,
+							"is_ambient": false,
+							"show_icon": false,
+							"show_particles": false
+						}
+					},
+					"condition": {
+						"type": "origins:and",
+						"conditions": [
+							{
+								"type": "origins:resource",
+								"resource": "engineers:foxjump_bar",
+								"compare_to": 59,
+								"comparison": "<="
+							},
+							{
+								"type": "origins:resource",
+								"resource": "engineers:foxjump_bar",
+								"compare_to": 40,
+								"comparison": ">="
+							}
+						]
+					}
+				},
+				{
+					"action": {
+						"type": "origins:apply_effect",
+						"effect": {
+							"effect": "minecraft:jump_boost",
+							"amplifier": 2,
+							"duration": 10,
+							"is_ambient": false,
+							"show_icon": false,
+							"show_particles": false
+						}
+					},
+					"condition": {
+						"type": "origins:and",
+						"conditions": [
+							{
+								"type": "origins:resource",
+								"resource": "engineers:foxjump_bar",
+								"compare_to": 79,
+								"comparison": "<="
+							},
+							{
+								"type": "origins:resource",
+								"resource": "engineers:foxjump_bar",
+								"compare_to": 60,
+								"comparison": ">="
+							}
+						]
+					}
+				},
+				{
+					"action": {
+						"type": "origins:apply_effect",
+						"effect": {
+							"effect": "minecraft:jump_boost",
+							"amplifier": 3,
+							"duration": 10,
+							"is_ambient": false,
+							"show_icon": false,
+							"show_particles": false
+						}
+					},
+					"condition": {
+						"type": "origins:resource",
+						"resource": "engineers:foxjump_bar",
+						"compare_to": 80,
+						"comparison": "=="
+					}
+				}
+			]
+		}
+	},
+
+	"name": "Foxjump",
+	"description": "Charge up a super jump by sneaking",
+	"hidden": false
+}

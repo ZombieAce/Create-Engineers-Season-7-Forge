@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"origins-classes:more_crop_drops",
+    	"origins-classes:better_bone_meal",
+		"engineers:leveling",
+		"engineers:xpgain_farmer"
+	],
+	"icon": {
+		"item": "minecraft:iron_hoe"
+	},
+	"order": 5,
+	"impact": 0,
+	"name": "Farmer",
+	"description": "Specialized in agriculture"
+}

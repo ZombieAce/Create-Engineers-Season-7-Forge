@@ -1,0 +1,8 @@
+{
+  "replace": true,
+  "origins": [
+    "engineers:origin/human",
+    "engineers:origin/vulpen",
+    "engineers:origin/tink"
+  ]
+}

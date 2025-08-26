@@ -1,0 +1,22 @@
+{
+  "type": "createbigcannons:melting",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "create:zinc_ingot"
+    }
+  ],
+  "processingTime": 180,
+  "results": [
+    {
+      "amount": 180,
+      "fluid": "createbigcannons:molten_bronze"
+    }
+  ]
+}

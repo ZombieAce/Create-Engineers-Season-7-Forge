@@ -1,0 +1,40 @@
+{
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+        "name": "Cavalry Spin",
+        "operation": "multiply_total_multiplicative",
+        "value": 0.3
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "mainhand",
+                "item_condition": {
+                    "type": "origins:or",
+                    "conditions": [
+                        {
+                            "type": "origins:ingredient",
+                            "ingredient": {
+                                "tag": "engineers:melee"
+                            }
+                        },
+                        {
+                            "type": "origins:ingredient",
+                            "ingredient": {
+                                "tag": "engineers:ranged"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "origins:riding"
+            }
+        ]
+    },
+
+    "name": "Cavalry",
+    "description": "You are §e30%§r stronger with both melee and ranged weapons while riding"
+}
