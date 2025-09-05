@@ -1,9 +1,7 @@
 {
 	"powers": [
 		"origins-classes:tree_felling",
-    	"origins-classes:more_planks_from_logs",
-		"engineers:leveling",
-		"engineers:xpgain_lumberjack"
+    	"origins-classes:more_planks_from_logs"
 	],
 	"icon": {
 		"item": "minecraft:iron_axe"

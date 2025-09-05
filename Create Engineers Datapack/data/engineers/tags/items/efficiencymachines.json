@@ -5,8 +5,8 @@
         "create:crushing_wheel",
         "create:mechanical_drill",
         "create:mechanical_saw",
+        "create:spout",
         "create:mechanical_press",
-        "create:mechanical_mixer",
-        "create:spout"
+        "create:mechanical_mixer"
     ]
 }

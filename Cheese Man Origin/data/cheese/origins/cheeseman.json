@@ -7,7 +7,7 @@
 		"cheese:scale_reset"
 	],
 	"icon": "brewinandchewin:flaxen_cheese_wedge",
-	"order": 3,
+	"order": 999,
 	"impact": 2,
 	"name": "Cheeseman",
 	"description": "A being born from the purest cheese wheel and a long forgotten arcane spell.",

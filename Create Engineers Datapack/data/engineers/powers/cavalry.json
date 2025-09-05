@@ -9,25 +9,49 @@
         "type": "origins:and",
         "conditions": [
             {
-                "type": "origins:equipped_item",
-                "equipment_slot": "mainhand",
-                "item_condition": {
-                    "type": "origins:or",
-                    "conditions": [
-                        {
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "mainhand",
+                        "item_condition": {
                             "type": "origins:ingredient",
                             "ingredient": {
-                                "tag": "engineers:melee"
-                            }
-                        },
-                        {
-                            "type": "origins:ingredient",
-                            "ingredient": {
-                                "tag": "engineers:ranged"
+                                "tag": "engineers:rider"
                             }
                         }
-                    ]
-                }
+                    },
+                    {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "mainhand",
+                        "item_condition": {
+                            "type": "origins:ingredient",
+                            "ingredient": {
+                                "tag": "engineers:meleeae2"
+                            }
+                        }
+                    },
+                    {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "mainhand",
+                        "item_condition": {
+                            "type": "origins:ingredient",
+                            "ingredient": {
+                                "tag": "engineers:meleesa"
+                            }
+                        }
+                    },
+                    {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "mainhand",
+                        "item_condition": {
+                            "type": "origins:ingredient",
+                            "ingredient": {
+                                "tag": "engineers:meleedeeper"
+                            }
+                        }
+                    }
+                ]
             },
             {
                 "type": "origins:riding"

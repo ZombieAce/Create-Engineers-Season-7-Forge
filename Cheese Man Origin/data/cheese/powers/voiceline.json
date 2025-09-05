@@ -2,7 +2,7 @@
     "type": "origins:active_self",
     "entity_action": {
         "type":"origins:execute_command",
-        "command": "playsound cheeseman:cheese player @a[distance=..16]"
+        "command": "function cheese:voiceline"
     },
     "condition": {
         "type": "origins:equipped_item",
@@ -14,7 +14,7 @@
             }
         }
     },
-    "cooldown": 35,
+    "cooldown": 0,
     "hud_render": {
         "should_render": false
     },

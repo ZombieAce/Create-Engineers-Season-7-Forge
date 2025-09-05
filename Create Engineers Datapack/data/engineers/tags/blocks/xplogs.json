@@ -8,23 +8,7 @@
         "minecraft:cherry_log",
         "minecraft:dark_oak_log",
         "minecraft:mangrove_log",
-        "betternether:stalagnate_log",
-        "betternether:willow_log",
-        "betternether:wart_log",
-        "betternether:rubeus_log",
-        "betternether:mushroom_fir_log",
-        "betternether:anchor_tree_log",
-        "betternether:nether_sakura_log",
-        "betterend:mossy_glowshroom_log",
-        "betterend:pythadendron_log",
-        "betterend:end_lotus_log",
-        "betterend:lacugrove_log",
-        "betterend:dragon_tree_log",
-        "betterend:tenanea_log",
-        "betterend:helix_tree_log",
-        "betterend:umbrella_tree_log",
-        "betterend:jellyshroom_log",
-        "betterend:lucernia_log",
-        "create_dd:rubber_log"
+        
+        "deeperdarker:echo_log"
     ]
 }

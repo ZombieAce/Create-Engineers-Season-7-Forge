@@ -1,9 +1,7 @@
 {
 	"powers": [
 		"origins-classes:more_crop_drops",
-    	"origins-classes:better_bone_meal",
-		"engineers:leveling",
-		"engineers:xpgain_farmer"
+    	"origins-classes:better_bone_meal"
 	],
 	"icon": {
 		"item": "minecraft:iron_hoe"

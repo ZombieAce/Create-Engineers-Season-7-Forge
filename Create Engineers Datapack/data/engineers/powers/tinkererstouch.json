@@ -115,6 +115,6 @@
     },
 
     "name": "Tinkerer's Touch",
-    "description": "Machines you touch are enchanted to be more efficient §2(SHIFT + RMB)§r",
+    "description": "Machines you touch are enchanted to be more efficient. §2[SHIFT + RMB]§r with any enchantable machinery in your hand.",
     "hidden": false
 }

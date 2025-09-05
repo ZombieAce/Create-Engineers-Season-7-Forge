@@ -22,10 +22,21 @@
         ]
     },
     "item_condition": {
-        "type": "origins:ingredient",
-        "ingredient": {
-            "tag": "engineers:berries"
-        }
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "engineers:berries"
+                }
+            },
+            {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "engineers:berriesmodded"
+                }
+            }
+        ]
     },
 
     "name": "Berry Boost",

@@ -1,9 +1,7 @@
 {
 	"powers": [
 		"engineers:horsepower",
-		"engineers:cavalry",
-		"engineers:leveling",
-		"engineers:xpgain_rider"
+		"engineers:cavalry"
 	],
 	"icon": {
 		"item": "minecraft:saddle"

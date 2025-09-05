@@ -1,9 +1,7 @@
 {
 	"powers": [
 		"engineers:meleeboost",
-    	"origins-classes:less_shield_slowdown",
-		"engineers:leveling",
-		"engineers:xpgain_warrior"
+    	"origins-classes:less_shield_slowdown"
 	],
 	"icon": {
 		"item": "minecraft:iron_sword"

@@ -10,17 +10,32 @@
         "#minecraft:lapis_ores",
         "minecraft:nether_gold_ore",
         "minecraft:nether_quartz_ore",
-        "betternether:cincinnasite_ore",
-        "betternether:nether_ruby_ore",
-        "betternether:nether_lapis_ore",
-        "betternether:nether_redstone_ore",
-        "betterend:ender_ore",
-        "betterend:amber_ore",
-        "betterend:thallasium_ore",
+
         "create:zinc_ore",
         "create:deepslate_zinc_ore",
-        "create_dd:tin_ore",
-        "create_dd:deepslate_tin_ore",
-        "create_new_age:thorium_ore"
+
+        "create_new_age:thorium_ore",
+
+        "createnuclear:lead_ore",
+        "createnuclear:deepslate_lead_ore",
+        "createnuclear:uranium_ore",
+        "createnuclear:deepslate_uranium_ore",
+    
+        "deeperdarker:skulk_stone_coal_ore",
+        "deeperdarker:skulk_stone_copper_ore",
+        "deeperdarker:skulk_stone_iron_ore",
+        "deeperdarker:skulk_stone_gold_ore",
+        "deeperdarker:skulk_stone_redstone_ore",
+        "deeperdarker:skulk_stone_diamond_ore",
+        "deeperdarker:skulk_stone_emerald_ore",
+        "deeperdarker:skulk_stone_lapis_ore",
+        "deeperdarker:gloomslate_coal_ore",
+        "deeperdarker:gloomslate_copper_ore",
+        "deeperdarker:gloomslate_iron_ore",
+        "deeperdarker:gloomslate_gold_ore",
+        "deeperdarker:gloomslate_redstone_ore",
+        "deeperdarker:gloomslate_diamond_ore",
+        "deeperdarker:gloomslate_emerald_ore",
+        "deeperdarker:gloomslate_lapis_ore"
     ]
 }

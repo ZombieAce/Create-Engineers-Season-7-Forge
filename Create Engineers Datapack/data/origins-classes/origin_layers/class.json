@@ -1,19 +1,12 @@
 {
   "replace": true,
-  "order": 10,
+  "order": 1,
   "origins": [
     "engineers:class/warrior",
     "engineers:class/archer",
     "engineers:class/rider",
     "engineers:class/lumberjack",
     "engineers:class/miner",
-    "engineers:class/farmer",
-
-    "engineers:class/superwarrior",
-    "engineers:class/superarcher",
-    "engineers:class/superrider",
-    "engineers:class/superlumberjack",
-    "engineers:class/superminer",
-    "engineers:class/superfarmer"
+    "engineers:class/farmer"
   ]
 }

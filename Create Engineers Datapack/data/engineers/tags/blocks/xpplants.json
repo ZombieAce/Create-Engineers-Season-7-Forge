@@ -3,6 +3,8 @@
         "minecraft:wheat",
         "minecraft:potatoes",
         "minecraft:carrots",
+        
+        "farmersdelight:rice_panicles",
         "farmersdelight:cabbages"
     ]
 }

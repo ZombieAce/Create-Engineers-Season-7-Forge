@@ -2,7 +2,6 @@
     "values": [
         "minecraft:sweet_berries",
         "minecraft:glow_berries",
-        "create:chocolate_glazed_berries",
-        "farmersdelight:sweet_berry_cheesecake_slice"
+        "create:chocolate_glazed_berries"
     ]
 }

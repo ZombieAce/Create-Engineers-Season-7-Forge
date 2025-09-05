@@ -1,0 +1,24 @@
+{
+    "type": "origins:modify_projectile_damage",
+    "modifier": {
+        "name": "Ranged Boost",
+        "operation": "multiply_total_multiplicative",
+        "value": 0.2
+    },
+    "damage_condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:projectile",
+                "projectile": "minecraft:arrow"
+            },
+            {
+                "type": "origins:projectile",
+                "projectile": "minecraft:spectral_arrow"
+            }
+        ]
+    },
+
+    "name": "Ranged Boost",
+    "description": "You are §e20%§r stronger with bows and crossbows"
+}
