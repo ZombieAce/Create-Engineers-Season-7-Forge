@@ -7,7 +7,7 @@
 		"item": "minecraft:bow"
 	},
 	"order": 1,
-	"impact": 0,
+	"impact": 1,
 	"name": "Archer",
 	"description": "Specialized in ranged combat"
 }

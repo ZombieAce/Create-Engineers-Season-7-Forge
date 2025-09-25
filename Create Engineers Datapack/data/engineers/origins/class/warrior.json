@@ -7,7 +7,7 @@
 		"item": "minecraft:iron_sword"
 	},
 	"order": 0,
-	"impact": 0,
+	"impact": 1,
 	"name": "Warrior",
 	"description": "Specialized in melee combat"
 }

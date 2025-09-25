@@ -7,7 +7,7 @@
 		"item": "minecraft:iron_axe"
 	},
 	"order": 4,
-	"impact": 0,
+	"impact": 1,
 	"name": "Lumberjack",
 	"description": "Specialized in forestry"
 }

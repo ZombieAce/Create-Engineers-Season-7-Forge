@@ -1,0 +1,2 @@
+tellraw @s [{"text": "You have met the conditions to become a contractor. Drop a piece of paper onto an emerald block to change your class","bold": true,"color": "gold"}]
+scoreboard players set @s contractorachievement 1

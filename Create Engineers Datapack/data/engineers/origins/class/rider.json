@@ -7,7 +7,7 @@
 		"item": "minecraft:saddle"
 	},
 	"order": 2,
-	"impact": 0,
+	"impact": 2,
 	"name": "Rider",
 	"description": "Specialized in mounted combat"
 }

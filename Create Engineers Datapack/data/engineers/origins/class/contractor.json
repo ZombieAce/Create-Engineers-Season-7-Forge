@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"engineers:contracting",
+    	"origins-classes:trade_availability"
+	],
+	"icon": {
+		"item": "minecraft:emerald"
+	},
+	"order": 6,
+	"impact": 2,
+	"name": "Contractor",
+	"description": "Specialized in trading",
+	"unchoosable": true
+}

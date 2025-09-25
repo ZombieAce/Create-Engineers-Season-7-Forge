@@ -1,0 +1,24 @@
+{
+    "type": "origins:multiple",
+
+    "persist": {
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
+            "type": "origins:execute_command",
+            "command": "scale persist set true"
+        }
+    },
+
+    "reach": {
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:block_reach 1.5"
+        }
+    },
+
+    "name": "Extended Building Reach",
+    "description": "You can reach farther when placing blocks",
+    "hidden": false,
+    "loading_priority": 0
+}

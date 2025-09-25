@@ -19,6 +19,15 @@ team modify tink color dark_green
 team modify tink prefix "[TINK] "
 team modify tink seeFriendlyInvisibles false
 
+scoreboard objectives add contract dummy
+scoreboard objectives add contracttimer dummy
+scoreboard objectives add contractorUUID dummy
+scoreboard objectives add contractorachievement dummy
+scoreboard objectives add UUID dummy
+scoreboard objectives add timer dummy
+scoreboard objectives add trades custom:traded_with_villager
+
+
 # Playtime
 scoreboard objectives add playtime trigger
 scoreboard objectives add ticks dummy

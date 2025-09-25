@@ -7,7 +7,7 @@
 		"item": "minecraft:iron_pickaxe"
 	},
 	"order": 3,
-	"impact": 0,
+	"impact": 1,
 	"name": "Miner",
 	"description": "Specialized in mining"
 }

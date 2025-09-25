@@ -1,0 +1,12 @@
+{
+	"powers": [
+		"engineers:longarms"
+	],
+	"icon": {
+		"item": "minecraft:bricks"
+	},
+	"order": 7,
+	"impact": 2,
+	"name": "Builder",
+	"description": "Specialized in building"
+}

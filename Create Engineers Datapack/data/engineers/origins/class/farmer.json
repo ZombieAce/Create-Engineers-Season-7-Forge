@@ -7,7 +7,7 @@
 		"item": "minecraft:iron_hoe"
 	},
 	"order": 5,
-	"impact": 0,
+	"impact": 1,
 	"name": "Farmer",
 	"description": "Specialized in agriculture"
 }

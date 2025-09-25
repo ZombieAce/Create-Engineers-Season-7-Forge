@@ -1,0 +1,81 @@
+{
+    "type": "origins:multiple",
+        
+    "paper": {
+        "type": "origins:active_self",
+        "key": "key.origins.primary_active",
+        "cooldown": 6000,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+            "bar_index": 24,
+            "order": 0
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "function engineers:contractor/contract"
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "engineers:contracting_timer",
+                    "operation": "set",
+                    "change": 20
+                }
+            ]
+        }
+    },
+
+    "timer": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 20,
+        "hud_render": {
+            "should_render": false
+        },
+        "min_action": {
+            "type": "origins:execute_command",
+            "command": "function engineers:contractor/end"
+        }
+    },
+    
+    "tick": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "engineers:contracting_timer",
+            "operation": "add",
+            "change": -1
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "engineers:contracting_timer",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    },
+
+    "summon": {
+        "type": "origins:active_self",
+        "key": "key.origins.secondary_active",
+        "cooldown": 36000,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+            "bar_index": 7,
+            "icon_index": 0,
+            "order": 1
+        },
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "function engineers:contractor/summon"
+        }
+    },
+    
+    "name": "Contracting",
+    "description": "You can contract other players to your benefit",
+    "hidden": false
+}
