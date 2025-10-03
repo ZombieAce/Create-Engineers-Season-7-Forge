@@ -22,6 +22,7 @@ The main goal of this season was to add a more __RPG__ feel to the standard Crea
 - `Lumberjack`
 - `Farmer`
 - `Contractor [Special]` - Obtained by completing at least 25 trades with villagers and dropping a paper onto an emerald block
+- `Builder [Special]` - WIP
 
 ## Main Dependencies
 - `Origins`
@@ -40,10 +41,11 @@ The main goal of this season was to add a more __RPG__ feel to the standard Crea
 You dont need all of the above for the modded items to work. Theres individual tags for every mod listed here.
 > __NOTE:__ For the Cheeseman origin you'll need to include `Brewin n' Chewin` and optionally the `Cheeseman Sound Pack`
 
-## Trivia
+## Trivia & Credits
 - The __Cheeseman__ origin is still included in this season of the server as an easter egg from __Season 6__ however it is unobtainable without the use of commands
 - All the classes are nearly identical to the ones in the `Origins: Classes` addon, they just got tweaked
 - The Vulpen origin was suggested by __EaglePlayzzYT ("Sprocket")__
 - The __Rider__ class was planned to be another class in __Season 6__ but it was delayed and eventually cancelled. It has made it's return, now with even more features than planned previously!
 - The __Contractor__ class was suggested and playtested by __CreateRageGames__
+- The __Builder__, __Swimmer__, __Hiker__ and __Pyro__ were all brainstormed with the help of __Estatic06__
 - The main datapack also includes a playtime counter which you can access with `/trigger playtime`

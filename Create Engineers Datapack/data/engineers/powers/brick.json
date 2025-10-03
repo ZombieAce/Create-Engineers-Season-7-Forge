@@ -1,0 +1,30 @@
+{
+    "type": "origins:fire_projectile",
+    
+    "shooter_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:slowness",
+            "duration": 200
+        }
+    },
+    "key": "key.origins.secondary_active",
+    "cooldown": 40,
+    "count": 5,
+    "divergence": 2,
+    "entity_type": "minecraft:item",
+    "tag": {"Item": {"id": "minecraft:brick", "Count": 1}},
+    "interval": 5,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "bar_index": 1
+    },
+    "sound": "minecraft:entity.arrow.shoot",
+    "speed": 1.5,
+
+    "name": "Brick Throw",
+    "description": "Throw a bunch of bricks at your enemy!",
+    "hidden": false,
+    "loading_priority": 0
+}

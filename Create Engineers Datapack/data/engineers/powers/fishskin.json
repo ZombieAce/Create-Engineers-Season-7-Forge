@@ -1,0 +1,138 @@
+{
+	"type": "origins:multiple",
+	
+	"ocean": {
+		"type": "origins:model_color",
+		
+		"red": 1,
+		"green": 1,
+		"blue": 1,
+		"condition": {
+			"type": "origins:biome",
+			"biome": "minecraft:ocean"
+		}
+	},
+	
+	"deep_ocean": {
+		"type": "origins:model_color",
+		
+		"red": 1,
+		"green": 1,
+		"blue": 1,
+		"condition": {
+			"type": "origins:biome",
+			"biome": "minecraft:deep_ocean"
+		}
+	},
+
+	"warm_ocean": {
+		"type": "origins:model_color",
+		
+		"red": 1,
+		"green": 1,
+		"blue": 1,
+		"condition": {
+			"type": "origins:biome",
+			"biome": "minecraft:warm_ocean"
+		}
+	},
+
+	"lukewarm_ocean": {
+		"type": "origins:model_color",
+		
+		"red": 1,
+		"green": 1,
+		"blue": 1,
+		"condition": {
+			"type": "origins:biome",
+			"biome": "minecraft:lukewarm_ocean"
+		}
+	},
+
+	"deep_lukewarm_ocean": {
+		"type": "origins:model_color",
+		
+		"red": 1,
+		"green": 1,
+		"blue": 1,
+		"condition": {
+			"type": "origins:biome",
+			"biome": "minecraft:deep_lukewarm_ocean"
+		}
+	},
+
+	"cold_ocean": {
+		"type": "origins:model_color",
+		
+		"red": 1,
+		"green": 1,
+		"blue": 1,
+		"condition": {
+			"type": "origins:biome",
+			"biome": "minecraft:cold_ocean"
+		}
+	},
+
+	"deep_cold_ocean": {
+		"type": "origins:model_color",
+		
+		"red": 1,
+		"green": 1,
+		"blue": 1,
+		"condition": {
+			"type": "origins:biome",
+			"biome": "minecraft:deep_cold_ocean"
+		}
+	},
+
+	"frozen_ocean": {
+		"type": "origins:model_color",
+		
+		"red": 1,
+		"green": 1,
+		"blue": 1,
+		"condition": {
+			"type": "origins:biome",
+			"biome": "minecraft:frozen_ocean"
+		}
+	},
+
+	"deep_frozen_ocean": {
+		"type": "origins:model_color",
+		
+		"red": 1,
+		"green": 1,
+		"blue": 1,
+		"condition": {
+			"type": "origins:biome",
+			"biome": "minecraft:deep_frozen_ocean"
+		}
+	},
+
+	"swamp": {
+		"type": "origins:model_color",
+		
+		"red": 1,
+		"green": 1,
+		"blue": 1,
+		"condition": {
+			"type": "origins:biome",
+			"biome": "minecraft:swamp"
+		}
+	},
+
+	"mangrove_swamp": {
+		"type": "origins:model_color",
+		
+		"red": 1,
+		"green": 1,
+		"blue": 1,
+		"condition": {
+			"type": "origins:biome",
+			"biome": "minecraft:mangrove_swamp"
+		}
+	},
+
+	"name": "Aquametachrosis",
+	"description": "Your skin developped special cells that change your skin tone based on the environment you swim in"
+}

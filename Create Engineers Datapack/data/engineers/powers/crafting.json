@@ -1,0 +1,15 @@
+{
+	"type": "origins:active_self",
+	"cooldown": 0,
+	"hud_render": {
+		"should_render": false
+	},
+	"key": {
+		"key": "key.origins.primary_active"
+	},
+	"entity_action": {
+		"type": "origins:crafting_table"
+	},
+	"name": "Portable Crafting",
+	"description": "You have the skills and the know-how for crafting advanced recipes without the need of a crafting table"
+}

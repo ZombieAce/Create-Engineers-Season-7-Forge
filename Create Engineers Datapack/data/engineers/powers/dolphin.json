@@ -1,0 +1,61 @@
+{
+	"type": "origins:active_self",
+
+	"entity_action": {
+		"type": "origins:area_of_effect",
+		"radius": 16,
+		"shape": "sphere",
+		"bientity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:actor_action",
+					"action": {
+						"type": "origins:apply_effect",
+						"effect": {
+							"effect": "minecraft:dolphins_grace",
+							"amplifier": 1,
+							"duration": 600,
+							"show_icon": true,
+							"show_particles": false
+						}
+					}
+				},
+				{
+					"type": "origins:target_action",
+					"action": {
+						"type": "origins:apply_effect",
+						"effect": {
+							"effect": "minecraft:dolphins_grace",
+							"amplifier": 1,
+							"duration": 600,
+							"show_icon": true,
+							"show_particles": false
+						}
+					}
+				}
+			]
+		},
+		"bientity_condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:target_condition",
+					"condition": {
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:player"
+					}
+				},
+				{
+					"type": "origins:actor_condition",
+					"condition": {
+						"type": "origins:swimming"
+					}
+				}
+			]
+		}
+	},
+	
+	"name": "Dolphin's Blessing",
+	"description": "You and your surrounding players will recieve 30s of Dolphin's Grace"
+}

@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"engineers:dolphin",
+		"engineers:fishskin",
+		"origins:fins",
+		"engineers:watervision",
+		"engineers:gills"
+	],
+	"icon": {
+		"item": "minecraft:cod"
+	},
+	"order": 8,
+	"impact": 2,
+	"name": "swimmer",
+	"description": "Specialized in swimmer"
+}

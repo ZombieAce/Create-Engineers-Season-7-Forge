@@ -8,6 +8,8 @@
     "engineers:class/lumberjack",
     "engineers:class/miner",
     "engineers:class/farmer",
-    "engineers:class/contractor"
+    "engineers:class/contractor",
+    "engineers:class/builder",
+    "engineers:class/swimmer"
   ]
 }

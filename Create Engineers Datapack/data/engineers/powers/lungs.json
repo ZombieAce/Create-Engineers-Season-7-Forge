@@ -1,0 +1,12 @@
+{
+	"type": "origins:attribute",
+
+	"modifier": {
+		"attribute": "minecraft:generic.oxygen_bonus",
+		"operation": "multiply_base",
+		"value": 2
+	},
+
+	"name": "Lung Training",
+	"description": "Your lungs are trained enough to hold your breath for twice as long"
+}

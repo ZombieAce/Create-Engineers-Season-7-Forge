@@ -1,6 +1,9 @@
 {
 	"powers": [
-		"engineers:longarms"
+		"engineers:longarms",
+		"engineers:brick",
+		"engineers:ironfists",
+		"engineers:crafting"
 	],
 	"icon": {
 		"item": "minecraft:bricks"
